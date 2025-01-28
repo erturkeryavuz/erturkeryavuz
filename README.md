@@ -31,9 +31,9 @@
 
 ## 🚀 Featured Projects
 Here are some of my highlighted projects:
-- 🌟 [Project 1](https://github.com/erturkeryavuz/project1)
-- 🔥 [Project 2](https://github.com/erturkeryavuz/project2)
-- 🚀 [Live Demo](https://your-live-demo-link.com)
+- 🌟 [Project 1](https://github.com/erturkeryavuz/Euro2024App)
+- 🔥 [Project 2](https://github.com/erturkeryavuz/NBASHOP)
+- 🚀 [Project 3/improving](https://github.com/erturkeryavuz/FANTASYBASKETBALLAPP)
 
 ---
 
