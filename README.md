@@ -1,16 +1,23 @@
-## Hi there 👋
+# 👋 Hi there! I'm Ertürk Eryavuz
 
-<!--
-**erturkeryavuz/erturkeryavuz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 Exploring the world of software development and open-source collaboration.  
+🎯 Passionate about creating impactful projects and solving challenging problems.  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🌟 About Me
+- 🔭 Currently working on: **[FantasyBasketball]**
+- 🌱 Currently learning: **SwiftUI**, **Machine Learning**, and **Python**
+- 🤝 Open to collaborate on: Interesting and innovative projects
+- 🎯 Goal: To continuously grow as a developer and contribute to open-source
+
+---
+
+## 📊 GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=erturkeryavuz&show_icons=true&theme=radical)
+
+---
+
+## 🌐 Connect with Me
+- 💼 [LinkedIn](https://linkedin.com/in/erturkeryavuz)
+- 📧 [Email Me](mailto:erturkeryavuz@gmail.com)
