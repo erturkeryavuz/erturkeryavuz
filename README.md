@@ -1,12 +1,7 @@
-# 👋 Hi there! I'm Ertürk Yavuz
+# 👋 Hi there! I'm Ertürk Eryavuz
 
 🚀 Exploring the world of software development and open-source collaboration.  
 🎯 Passionate about creating impactful projects and solving challenging problems.  
-
----
-
-## 🖼️ Banner
-![Banner](https://via.placeholder.com/1200x400?text=Welcome+to+Erturk's+GitHub+Profile)
 
 ---
 
