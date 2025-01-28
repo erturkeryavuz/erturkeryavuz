@@ -6,8 +6,8 @@
 ---
 
 ## 🌟 About Me
-- 🔭 Currently working on: **[Your Current Project or Focus]**
-- 🌱 Currently learning: **Web Development**, **Machine Learning**, and **Blockchain**
+- 🔭 Currently working on: **[FantasyBasketballApp]**
+- 🌱 Currently learning: **SwiftUI**, **Machine Learning**, and **Python**
 - 🤝 Open to collaborate on: Interesting and innovative projects
 - 🎯 Goal: To continuously grow as a developer and contribute to open-source
 
