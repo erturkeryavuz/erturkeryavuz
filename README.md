@@ -19,5 +19,5 @@
 ---
 
 ## 🌐 Connect with Me
-- 💼 [LinkedIn](https://linkedin.com/in/erturkeryavuz)
+- 💼 [LinkedIn](https://linkedin.com/in/ertürk-e-083b76282)
 - 📧 [Email Me](mailto:erturkeryavuz@gmail.com)
