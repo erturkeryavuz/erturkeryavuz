@@ -31,13 +31,12 @@
 
 ## 🚀 Featured Projects
 Here are some of my highlighted projects:
-- 🌟 [Project 1](https://github.com/erturkeryavuz/Euro2024App)
-- 🔥 [Project 2](https://github.com/erturkeryavuz/NBASHOP)
-- 🚀 [Project 3/improving](https://github.com/erturkeryavuz/FANTASYBASKETBALLAPP)
+- 🌟 [Euro2024App](https://github.com/erturkeryavuz/Euro2024App)
+- 🔥 [NBASHOP](https://github.com/erturkeryavuz/NBASHOP)
+- 🚀 [FANTASYBASKETBALLAPP/in progress](https://github.com/erturkeryavuz/FANTASYBASKETBALLAPP)
 
 ---
 
 ## 💡 How You Can Help
-- ⭐ Star my repositories to show your support!
 - 📝 Open issues or pull requests to collaborate.
 - 🙌 Connect with me to discuss new opportunities!
