@@ -33,7 +33,7 @@
 Here are some of my highlighted projects:
 - 🌟 [Euro2024App](https://github.com/erturkeryavuz/Euro2024App)
 - 🔥 [NBASHOP](https://github.com/erturkeryavuz/NBASHOP)
-- 🚀 [FANTASYBASKETBALLAPP/in progress](https://github.com/erturkeryavuz/FANTASYBASKETBALLAPP)
+- 🚀 [FANTASYBASKETBALLAPP/in progress](https://github.com/erturkeryavuz/fantasy-basketball)
 
 ---
 
