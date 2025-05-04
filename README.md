@@ -6,10 +6,10 @@
 ---
 
 ## 🌟 About Me
-- 🔭 Currently working on: **[FantasyBasketballApp]**
-- 🌱 Currently learning: **SwiftUI**, **Machine Learning**, and **Python**
-- 🤝 Open to collaborate on: Innovative and data-driven projects
-- 🎯 Goal: To continuously grow as a developer and contribute to open-source
+- 🔭 Currently building: **FantasyBasketballApp** — a full-stack, AI-powered game platform with live player stats and pack-opening mechanics
+- 🌱 Actively deepening skills in: **SwiftUI**, **Machine Learning**, **Python**, and Microsoft Power Platform (Power BI, Copilot, Power Automate)
+- 🤝 Open to collaborating on: Scalable, intelligent, and automation-driven software projects
+- 🎯 Goal: To create real-world impact by blending AI, automation, and beautiful user experiences — while continuously evolving as a developer
 
 ---
 
