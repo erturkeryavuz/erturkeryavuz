@@ -1,14 +1,14 @@
 # 👋 Hi there! I'm Ertürk Eryavuz
 
-🚀 Exploring the world of software development and open-source collaboration.  
-🎯 Passionate about creating impactful projects and solving challenging problems.  
+🚀 Exploring the world of software development and open-source collaboration  
+🎯 Passionate about creating impactful projects and solving challenging problems  
 
 ---
 
 ## 🌟 About Me
 - 🔭 Currently working on: **[FantasyBasketballApp]**
 - 🌱 Currently learning: **SwiftUI**, **Machine Learning**, and **Python**
-- 🤝 Open to collaborate on: Interesting and innovative projects
+- 🤝 Open to collaborate on: Innovative and data-driven projects
 - 🎯 Goal: To continuously grow as a developer and contribute to open-source
 
 ---
@@ -40,30 +40,27 @@
 ![Excel](https://img.shields.io/badge/Excel-%23217346.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![SAP](https://img.shields.io/badge/SAP-%2300B2B1.svg?style=for-the-badge&logo=sap&logoColor=white)
 
-### 🌐 Other Skills
-![Authentication](https://img.shields.io/badge/Auth-Systems-blueviolet?style=for-the-badge)
+### 🌐 Capabilities
+![Authentication](https://img.shields.io/badge/Auth%20Systems-blueviolet?style=for-the-badge)
 ![Real-Time](https://img.shields.io/badge/Real--Time%20Sync-green?style=for-the-badge)
-![AI-ML](https://img.shields.io/badge/Machine%20Learning-%23FF6F61?style=for-the-badge)
-![Data-Cleaning](https://img.shields.io/badge/Data%20Cleaning-%23FFC107?style=for-the-badge)
-
-
+![AI & ML](https://img.shields.io/badge/Machine%20Learning-%23FF6F61?style=for-the-badge)
+![Data Cleaning](https://img.shields.io/badge/Data%20Cleaning-%23FFC107?style=for-the-badge)
 
 ---
 
+## 📈 GitHub Insights
 
-## 📊 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=erturkeryavuz&show_icons=true&theme=radical)
-
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=erturkeryavuz&layout=compact&theme=radical)
-
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=erturkeryavuz&theme=radical)
-
 ![GitHub Streak](https://streak-stats.demolab.com/?user=erturkeryavuz&theme=radical&date_format=M%20j%5B%2C%20Y%5D)
 
-
 ---
 
-## 🛡️ Badges
+## 🏆 Trophies & Badges
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=erturkeryavuz&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
+
 ![Profile Views](https://komarev.com/ghpvc/?username=erturkeryavuz&color=brightgreen)
 ![GitHub Followers](https://img.shields.io/github/followers/erturkeryavuz?style=social)
 ![Stars](https://img.shields.io/github/stars/erturkeryavuz?style=social)
@@ -71,23 +68,18 @@
 ---
 
 ## 🚀 Featured Projects
-Here are some of my highlighted projects:
+
 - 🌟 [Euro2024App](https://github.com/erturkeryavuz/Euro2024App)
 - 🔥 [NBASHOP](https://github.com/erturkeryavuz/NBASHOP)
-- 🚀 [FANTASYBASKETBALLAPP/in progress](https://github.com/erturkeryavuz/fantasy-basketball)
+- 🚧 [FantasyBasketballApp](https://github.com/erturkeryavuz/fantasy-basketball)
 
----
-
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=erturkeryavuz&repo=Euro2024App&theme=radical)](https://github.com/erturkeryavuz/Euro2024App)
-
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=erturkeryavuz&repo=Euro2024App&theme=radical)](https://github.com/erturkeryavuz/Euro2024App)  
 [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=erturkeryavuz&repo=NBASHOP&theme=radical)](https://github.com/erturkeryavuz/NBASHOP)
 
 ---
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=erturkeryavuz&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
+## 💡 Let's Collaborate
 
----
-
-## 💡 How You Can Help
-- 📝 Open issues or pull requests to collaborate.
-- 🙌 Connect with me to discuss new opportunities!
+- 📝 Open issues or pull requests to collaborate
+- 📫 Reach me at: **erturkeryavuz@gmail.com**
+- 👔 Connect on [LinkedIn](https://www.linkedin.com/in/ertürk-eryavuz-083b76282)
