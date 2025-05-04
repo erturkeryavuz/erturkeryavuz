@@ -52,6 +52,9 @@ Here are some of my highlighted projects:
 
 [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=erturkeryavuz&repo=NBASHOP&theme=radical)](https://github.com/erturkeryavuz/NBASHOP)
 
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=erturkeryavuz&repo=NBASHOP&theme=radical)](https://github.com/erturkeryavuz/FantasyBasketball)
+
+
 ---
 
 ## 💡 How You Can Help
