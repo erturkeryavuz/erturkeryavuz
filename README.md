@@ -69,10 +69,10 @@
 
 ## 🚀 Featured Projects
 
-- 🚧 [FantasyBasketballApp](https://github.com/erturkeryavuz/fantasy-basketball)
-
 [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=erturkeryavuz&repo=Euro2024App&theme=radical)](https://github.com/erturkeryavuz/Euro2024App)  
 [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=erturkeryavuz&repo=NBASHOP&theme=radical)](https://github.com/erturkeryavuz/NBASHOP)
+
+- 🚧 [FantasyBasketballApp](https://github.com/erturkeryavuz/fantasy-basketball)
 
 ---
 
