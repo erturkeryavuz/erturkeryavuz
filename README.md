@@ -69,8 +69,6 @@
 
 ## 🚀 Featured Projects
 
-- 🌟 [Euro2024App](https://github.com/erturkeryavuz/Euro2024App)
-- 🔥 [NBASHOP](https://github.com/erturkeryavuz/NBASHOP)
 - 🚧 [FantasyBasketballApp](https://github.com/erturkeryavuz/fantasy-basketball)
 
 [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=erturkeryavuz&repo=Euro2024App&theme=radical)](https://github.com/erturkeryavuz/Euro2024App)  
@@ -82,4 +80,4 @@
 
 - 📝 Open issues or pull requests to collaborate
 - 📫 Reach me at: **erturkeryavuz@gmail.com**
-- 👔 Connect on [LinkedIn](https://www.linkedin.com/in/ertürk-eryavuz-083b76282)
+- 👔 Connect on [LinkedIn]([https://www.linkedin.com/in/ertürk-eryavuz-083b76282](https://www.linkedin.com/in/ert%C3%BCrk-e-083b76282/))
