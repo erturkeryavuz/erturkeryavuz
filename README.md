@@ -39,6 +39,11 @@
 ![Power BI](https://img.shields.io/badge/PowerBI-%23F2C811.svg?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Excel](https://img.shields.io/badge/Excel-%23217346.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![SAP](https://img.shields.io/badge/SAP-%2300B2B1.svg?style=for-the-badge&logo=sap&logoColor=white)
+![Power Apps](https://img.shields.io/badge/Power%20Apps-6E4B7C?style=for-the-badge&logo=powerapps&logoColor=white)
+![Power Automate](https://img.shields.io/badge/Power%20Automate-0078D4?style=for-the-badge&logo=powerautomate&logoColor=white)
+![Microsoft Copilot](https://img.shields.io/badge/Microsoft%20Copilot-258FFA?style=for-the-badge&logo=microsoft&logoColor=white)
+![Copilot Agent](https://img.shields.io/badge/Copilot%20Agent-%230078D4.svg?style=for-the-badge&logo=windows&logoColor=white)
+
 
 ### 🌐 Capabilities
 ![Authentication](https://img.shields.io/badge/Auth%20Systems-blueviolet?style=for-the-badge)
