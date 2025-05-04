@@ -85,4 +85,4 @@
 
 - 📝 Open issues or pull requests to collaborate
 - 📫 Reach me at: **erturkeryavuz@gmail.com**
-- 👔 Connect on [LinkedIn](https://www.linkedin.com/in/ert%C3%BCrk-e-083b76282/)
+- 👔 Connect on <a href="https://www.linkedin.com/in/ert%C3%BCrk-e-083b76282/" target="_blank">LinkedIn</a>
