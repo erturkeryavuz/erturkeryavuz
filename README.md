@@ -80,4 +80,4 @@
 
 - 📝 Open issues or pull requests to collaborate
 - 📫 Reach me at: **erturkeryavuz@gmail.com**
-- 👔 Connect on [LinkedIn]([https://www.linkedin.com/in/ertürk-eryavuz-083b76282](https://www.linkedin.com/in/ert%C3%BCrk-e-083b76282/))
+- 👔 Connect on [LinkedIn](https://www.linkedin.com/in/ert%C3%BCrk-e-083b76282/)
