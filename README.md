@@ -13,11 +13,12 @@
 
 ---
 
-## 📚 Skill Progress
-- ✅ SwiftUI: 70% 🔄 (Learning Combine & SwiftData)
-- ✅ Python: 85% 🔥 (Used in Data Science & Backend)
-- ✅ Django: 60% 🚧 (Currently building FantasyBasketball backend)
-- ✅ Machine Learning: 50% 🧠 (Working on model evaluation)
+## 🛠️ Tech Stack
+![SwiftUI](https://img.shields.io/badge/SwiftUI-%23FA7343.svg?style=for-the-badge&logo=swift&logoColor=white)
+![Python](https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-%23FFCA28.svg?style=for-the-badge&logo=firebase&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ---
 
