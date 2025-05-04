@@ -22,10 +22,6 @@
 
 ---
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=erturkeryavuz&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
-
-
----
 
 ## 📊 GitHub Stats
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=erturkeryavuz&show_icons=true&theme=radical)
@@ -57,6 +53,10 @@ Here are some of my highlighted projects:
 [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=erturkeryavuz&repo=Euro2024App&theme=radical)](https://github.com/erturkeryavuz/Euro2024App)
 
 [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=erturkeryavuz&repo=NBASHOP&theme=radical)](https://github.com/erturkeryavuz/NBASHOP)
+
+---
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=erturkeryavuz&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
 
 ---
 
