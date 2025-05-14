@@ -34,7 +34,7 @@
 ![Git](https://img.shields.io/badge/Git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white)
 ![Xcode](https://img.shields.io/badge/Xcode-%23000000.svg?style=for-the-badge&logo=xcode&logoColor=white)
 ![PyCharm](https://img.shields.io/badge/PyCharm-%23000000.svg?style=for-the-badge&logo=pycharm&logoColor=white)
-![Postman](https://img.shields.io/badge/PyCharm-%23000000.svg?style=for-the-badge&logo=pycharm&logoColor=orange)
+![Postman](https://img.shields.io/badge/Postman-%23000000.svg?style=for-the-badge&logo=pycharm&logoColor=orange)
 
 ### 📊 Data & Analytics
 ![Power BI](https://img.shields.io/badge/PowerBI-%23F2C811.svg?style=for-the-badge&logo=powerbi&logoColor=black)
