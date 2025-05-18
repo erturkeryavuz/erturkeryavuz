@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Ertürk Eryavuz.
+# 👋 Hi, I'm Ertürk Eryavuz
 
 🚀 Exploring the world of software development and open-source collaboration  
 🎯 Passionate about creating impactful projects and solving challenging problems  
