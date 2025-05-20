@@ -80,10 +80,4 @@
 
 - 🚧 [FantasyBasketballApp](https://github.com/erturkeryavuz/fantasy-basketball)
 
----
 
-## 💡 Let's Collaborate
-
-- 📝 Open issues or pull requests to collaborate
-- 📫 Reach me at: **erturkeryavuz@gmail.com**
-- 👔 Connect on [LinkedIn](https://www.linkedin.com/in/ert%C3%BCrk-e-083b76282/) ↗
