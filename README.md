@@ -80,4 +80,5 @@
 
 - 🚧 [FantasyBasketballApp](https://github.com/erturkeryavuz/fantasy-basketball)
 
+- 🚧 [TSLAIQ](https://github.com/erturkeryavuz/TSLAIQ)
 
