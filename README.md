@@ -72,10 +72,6 @@ FastAPI · Qdrant · sentence-transformers · pytest — 100+ tests, zero paid A
 
 ### 🚀 Other Projects
 
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=erturkeryavuz&repo=fantasy-basketball&theme=radical)](https://github.com/erturkeryavuz/fantasy-basketball)
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=erturkeryavuz&repo=Euro2024App&theme=radical)](https://github.com/erturkeryavuz/Euro2024App)
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=erturkeryavuz&repo=NBASHOP&theme=radical)](https://github.com/erturkeryavuz/NBASHOP)
-
 - 🎓 **[FantasyBasketballApp](https://github.com/erturkeryavuz/fantasy-basketball)** — AI-driven fantasy basketball mobile app with LLM integration and live player stats. University graduation project.
 - ⚽ **[Euro2024App](https://github.com/erturkeryavuz/Euro2024App)** — mobile app built around live tournament data.
 - 🏀 **[NBASHOP](https://github.com/erturkeryavuz/NBASHOP)** — e-commerce concept app for NBA merchandise.
@@ -85,13 +81,9 @@ FastAPI · Qdrant · sentence-transformers · pytest — 100+ tests, zero paid A
 
 ### 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=erturkeryavuz&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=erturkeryavuz&layout=compact&theme=radical)
-![GitHub Streak](https://streak-stats.demolab.com/?user=erturkeryavuz&theme=radical&date_format=M%20j%5B%2C%20Y%5D)
-
-[![Trophies](https://github-profile-trophy.vercel.app/?username=erturkeryavuz&theme=radical&no-frame=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=erturkeryavuz&show_icons=true&theme=radical&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=erturkeryavuz&layout=compact&theme=radical&hide_border=true)
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=erturkeryavuz&color=brightgreen&label=Profile+Views" />
-  <img src="https://img.shields.io/github/followers/erturkeryavuz?style=social" />
 </p>
