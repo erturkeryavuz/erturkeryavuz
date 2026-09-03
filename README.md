@@ -81,9 +81,6 @@ FastAPI · Qdrant · sentence-transformers · pytest — 100+ tests, zero paid A
 
 ### 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=erturkeryavuz&show_icons=true&theme=radical&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=erturkeryavuz&layout=compact&theme=radical&hide_border=true)
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=erturkeryavuz&color=brightgreen&label=Profile+Views" />
 </p>
