@@ -1,84 +1,97 @@
-# 👋 Hi, I'm Ertürk Eryavuz
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=F75C7E&center=true&vCenter=true&width=600&lines=Computer+Engineer;AI+Engineering+%26+Backend+Development;Building+RAG+systems+that+measure%2C+not+just+answer" alt="Typing SVG" />
+</p>
 
-🚀 Exploring the world of software development and open-source collaboration  
-🎯 Passionate about creating impactful projects and solving challenging problems  
+<h1 align="center">Hi, I'm Ertürk Eryavuz 👋</h1>
 
----
-
-## 🌟 About Me
-- 🔭 Currently building: **FantasyBasketballApp** — a full-stack, AI-powered game platform with live player stats and pack-opening mechanics
-- 🌱 Actively deepening skills in: **SwiftUI**, **Machine Learning**, **Python**, and Microsoft Power Platform (Power BI, Copilot, Power Automate)
-- 🤝 Open to collaborating on: Scalable, intelligent, and automation-driven software projects
-- 🎯 Goal: To create real-world impact by blending AI, automation, and beautiful user experiences — while continuously evolving as a developer
+<p align="center">
+  <a href="https://linkedin.com/in/erturkeryavuz"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:erturkeryavuz@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+</p>
 
 ---
 
-## 🛠️ Tech Stack
+### 🧭 About Me
 
-### 👨‍💻 Languages
-![Python](https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-%23FA7343.svg?style=for-the-badge&logo=swift&logoColor=white)
-![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
-![C](https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-%23007ACC.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+I build backend systems and AI-powered applications — FastAPI services, LLM integrations, and the retrieval/data pipelines underneath them. Most recently at **Eczacıbaşı–Esan**, where I built Python reporting pipelines and AI chatbot solutions on Microsoft Copilot Studio, and shipped an internal analytics assistant powered by DeepSeek.
 
-### 🧰 Tools & Frameworks
-![Django](https://img.shields.io/badge/Django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-%23FFCA28.svg?style=for-the-badge&logo=firebase&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white)
-![Xcode](https://img.shields.io/badge/Xcode-%23000000.svg?style=for-the-badge&logo=xcode&logoColor=white)
-![PyCharm](https://img.shields.io/badge/PyCharm-%23000000.svg?style=for-the-badge&logo=pycharm&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-%23000000.svg?style=for-the-badge&logo=postman&logoColor=orange)
-
-### 📊 Data & Analytics
-![Power BI](https://img.shields.io/badge/PowerBI-%23F2C811.svg?style=for-the-badge&logo=powerbi&logoColor=black)
-![Excel](https://img.shields.io/badge/Excel-%23217346.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![SAP](https://img.shields.io/badge/SAP-%2300B2B1.svg?style=for-the-badge&logo=sap&logoColor=white)
-![Power Apps](https://img.shields.io/badge/Power%20Apps-6E4B7C?style=for-the-badge&logo=powerapps&logoColor=white)
-![Power Automate](https://img.shields.io/badge/Power%20Automate-0078D4?style=for-the-badge&logo=powerautomate&logoColor=white)
-![Microsoft Copilot](https://img.shields.io/badge/Microsoft%20Copilot-258FFA?style=for-the-badge&logo=microsoft&logoColor=white)
-![Copilot Agent](https://img.shields.io/badge/Copilot%20Agent-%230078D4.svg?style=for-the-badge&logo=windows&logoColor=white)
-
-
-### 🌐 Capabilities
-![Authentication](https://img.shields.io/badge/Auth%20Systems-blueviolet?style=for-the-badge)
-![Real-Time](https://img.shields.io/badge/Real--Time%20Sync-green?style=for-the-badge)
-![AI & ML](https://img.shields.io/badge/Machine%20Learning-%23FF6F61?style=for-the-badge)
-![Data Cleaning](https://img.shields.io/badge/Data%20Cleaning-%23FFC107?style=for-the-badge)
+- 🔭 **Currently building:** RAG Platform (see below)
+- 🌱 **Deepening skills in:** LLM systems, retrieval architectures, and SwiftUI
+- 🤝 **Open to:** backend, AI engineering, and automation-driven projects
+- 🎓 Computer Engineering, Maltepe University — graduation project: AI-driven fantasy basketball app with LLM integration
 
 ---
 
-## 📈 GitHub Insights
+### 🧪 Highlighted Project — RAG Platform
+
+A production-minded Retrieval-Augmented Generation system, built around the question most RAG demos skip: **how do you know it's actually right?** Not just "it answers" — it *measures* retrieval quality, grounding, cost, and latency.
+
+![Hybrid Retrieval](https://img.shields.io/badge/Hybrid%20Retrieval-Dense%20%2B%20BM25%20%2B%20RRF-6E4B7C?style=for-the-badge)
+![Reranking](https://img.shields.io/badge/Reranking-Cross--Encoder-FF6F61?style=for-the-badge)
+![Eval](https://img.shields.io/badge/Eval%20Harness-Recall%40k%20%2B%20Grounding-FFC107?style=for-the-badge)
+![Providers](https://img.shields.io/badge/Providers-Anthropic%20%7C%20OpenAI%20%7C%20Ollama-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Observability](https://img.shields.io/badge/Observability-Cost%20%2B%20Latency%20Logging-00B2B1?style=for-the-badge)
+
+FastAPI · Qdrant · sentence-transformers · pytest — 100+ tests, zero paid API calls required to run the suite. Repo goes public with the eval results once complete — check back soon.
+
+---
+
+### 🛠️ Tech Stack
+
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+
+**Backend & Data**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+
+**AI / ML**
+
+![LLMs](https://img.shields.io/badge/LLMs-412991?style=for-the-badge&logo=openai&logoColor=white)
+![NLP](https://img.shields.io/badge/NLP-FF6F61?style=for-the-badge)
+![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-8A2BE2?style=for-the-badge)
+
+**Tools & Platforms**
+
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![SAP](https://img.shields.io/badge/SAP-0FAAFF?style=for-the-badge&logo=sap&logoColor=white)
+
+---
+
+### 🚀 Other Projects
+
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=erturkeryavuz&repo=fantasy-basketball&theme=radical)](https://github.com/erturkeryavuz/fantasy-basketball)
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=erturkeryavuz&repo=Euro2024App&theme=radical)](https://github.com/erturkeryavuz/Euro2024App)
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=erturkeryavuz&repo=NBASHOP&theme=radical)](https://github.com/erturkeryavuz/NBASHOP)
+
+- 🎓 **[FantasyBasketballApp](https://github.com/erturkeryavuz/fantasy-basketball)** — AI-driven fantasy basketball mobile app with LLM integration and live player stats. University graduation project.
+- ⚽ **[Euro2024App](https://github.com/erturkeryavuz/Euro2024App)** — mobile app built around live tournament data.
+- 🏀 **[NBASHOP](https://github.com/erturkeryavuz/NBASHOP)** — e-commerce concept app for NBA merchandise.
+- 🚧 **[TSLAIQ](https://github.com/erturkeryavuz/TSLAIQ)** — in progress.
+
+---
+
+### 📊 GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=erturkeryavuz&show_icons=true&theme=radical)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=erturkeryavuz&layout=compact&theme=radical)
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=erturkeryavuz&theme=radical)
 ![GitHub Streak](https://streak-stats.demolab.com/?user=erturkeryavuz&theme=radical&date_format=M%20j%5B%2C%20Y%5D)
 
----
+[![Trophies](https://github-profile-trophy.vercel.app/?username=erturkeryavuz&theme=radical&no-frame=true&row=1&column=6)](https://github.com/ryo-ma/github-profile-trophy)
 
-## 🏆 Trophies & Badges
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=erturkeryavuz&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
-
-![Profile Views](https://komarev.com/ghpvc/?username=erturkeryavuz&color=brightgreen)
-![GitHub Followers](https://img.shields.io/github/followers/erturkeryavuz?style=social)
-![Stars](https://img.shields.io/github/stars/erturkeryavuz?style=social)
-
----
-
-## 🚀 Featured Projects
-
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=erturkeryavuz&repo=Euro2024App&theme=radical)](https://github.com/erturkeryavuz/Euro2024App)  
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=erturkeryavuz&repo=NBASHOP&theme=radical)](https://github.com/erturkeryavuz/NBASHOP)
-
-- 🚧 [FantasyBasketballApp](https://github.com/erturkeryavuz/fantasy-basketball)
-
-- 🚧 [TSLAIQ](https://github.com/erturkeryavuz/TSLAIQ)
-
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=erturkeryavuz&color=brightgreen&label=Profile+Views" />
+  <img src="https://img.shields.io/github/followers/erturkeryavuz?style=social" />
+</p>
