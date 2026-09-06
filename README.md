@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=F75C7E,6E4B7C,00B2B1&center=true&vCenter=true&width=700&lines=+AI+Engineer+%26+Backend+Developer;+Building+RAG+systems+that+measure%2C+not+just+answer;+Local-first+AI+agents%2C+private+by+design;+From+FastAPI+pipelines+to+statistically+significant+evals" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=F75C7E,6E4B7C,00B2B1&center=true&vCenter=true&width=950&lines=AI+Engineer+%26+Backend+Developer;Building+RAG+systems+that+measure%2C+not+just+answer;Local-first+AI+agents%2C+private+by+design;From+FastAPI+pipelines+to+statistically+significant+evals" alt="Typing SVG" />
 </p>
 
 <h1 align="center">Hi, I'm Ertürk Eryavuz 👋</h1>
