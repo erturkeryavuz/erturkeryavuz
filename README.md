@@ -15,48 +15,24 @@
 
 I build backend systems and AI-powered applications — FastAPI services, LLM integrations, and the retrieval/data pipelines underneath them. Most recently at **Eczacıbaşı–Esan**, where I built Python reporting pipelines and AI chatbot solutions on Microsoft Copilot Studio, and shipped an internal analytics assistant powered by DeepSeek.
 
-- 🔭 **Currently building:** RAG Platform & NEXUS — my two active projects (see below)
+- 🔭 **Currently building:** RAG Platform & NEXUS (see below)
 - 🌱 **Deepening skills in:** LLM systems, retrieval architectures, agentic tool-calling, and SwiftUI
 - 🤝 **Open to:** backend, AI engineering, and automation-driven projects
 - 🎓 Computer Engineering, Maltepe University — graduation project: AI-driven fantasy basketball app with LLM integration
 
 ---
 
-### 🧪 Highlighted Projects (active)
+### 🧪 Highlighted Projects
 
 #### 🔍 RAG Platform *(private repo — happy to walk through the code or share access on request)*
 
-A production-minded Retrieval-Augmented Generation system, built around the question most RAG demos skip: **how do you know it's actually right?** Not just "it answers" — it *measures* retrieval quality, grounding, cost, and latency, and reports honest results even when they're negative.
-
-![Hybrid Retrieval](https://img.shields.io/badge/Hybrid%20Retrieval-Dense%20%2B%20BM25%20%2B%20RRF-6E4B7C?style=for-the-badge)
-![Reranking](https://img.shields.io/badge/Reranking-Cross--Encoder-FF6F61?style=for-the-badge)
-![Eval](https://img.shields.io/badge/Eval%20Harness-Recall%40k%20%2B%20Statistical%20Significance-FFC107?style=for-the-badge)
-![Providers](https://img.shields.io/badge/Providers-Anthropic%20%7C%20OpenAI%20%7C%20Ollama-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Observability](https://img.shields.io/badge/Observability-Cost%20%2B%20Latency%20Logging-00B2B1?style=for-the-badge)
-
-- **Fully local & free by default:** embedded Qdrant + local embeddings + Ollama — no API key, no Docker, no model download needed to run the 232+ test suite (all green in CI).
-- **Rigorous eval, not vibes:** a dedicated harness measures recall@k and keyword grounding, with bootstrap confidence intervals and McNemar tests for statistical significance — not just point estimates.
-- **Honest experimentation:** ran Self-RAG, HyDE, and embedding-model comparisons as real experiments, and documented it when they *didn't* help (e.g. reranking measurably hurts recall@1 on this corpus, replicated on a second, independent one — reported as a finding, not hidden).
-- **Extended to a real-world corpus:** beyond the synthetic demo, the platform now also serves a Turkish financial-fraud-awareness corpus sourced entirely from official government institutions (Emniyet Genel Müdürlüğü, SPK, İçişleri Bakanlığı, Ticaret Bakanlığı), with a hand-verified, grep-checked eval set — no fabricated content.
+Production-minded RAG system — hybrid retrieval (dense + BM25 + RRF), cross-encoder reranking, and a rigorous eval harness (recall@k, bootstrap CI, McNemar tests). Fully local and free via Ollama; extended to a real-world Turkish fraud-awareness corpus sourced from official government institutions.
 
 FastAPI · Qdrant · sentence-transformers · pytest · GitHub Actions CI.
 
-#### 🤖 [NEXUS — Local AI Assistant](https://github.com/erturkeryavuz/NEXUS)
+#### 🤖 NEXUS — Local AI Assistant *(private repo — happy to walk through the code or share access on request)*
 
-A local-first AI assistant platform: a modular, real-time agent system that keeps everything — inference, memory, tools — on-device.
-
-![Local-First](https://img.shields.io/badge/Local--First-Privacy%20by%20Design-2E7D32?style=for-the-badge)
-![Real-Time](https://img.shields.io/badge/Real--Time-WebSocket%20Agent%20States-4A90D9?style=for-the-badge)
-![Agentic](https://img.shields.io/badge/Agentic-Tool%20Calling-8A2BE2?style=for-the-badge)
-![Memory](https://img.shields.io/badge/Memory-Persistent%20(SQLite)-003B57?style=for-the-badge)
-
-- **Backend:** Python, FastAPI, WebSockets, SQLite
-- **Frontend:** React, TypeScript, Three.js (React Three Fiber)
-- **AI:** Ollama local LLM inference, agentic tool calling
-- **Tools:** calculator, file search/read, JSON/CSV analysis, restricted Python execution
-- **Memory:** persistent conversational memory via SQLite
-- **Real-time:** WebSocket-based agent states and a live activity timeline
-- **Architecture:** modular and extensible — built to grow into RAG, voice, vision, and Git/GitHub tool integrations
+A local-first, privacy-focused AI assistant — FastAPI + WebSocket backend, real-time React/Three.js interface, fully local LLM inference via Ollama, agentic tool-calling, and persistent memory.
 
 ---
 
@@ -102,10 +78,10 @@ A local-first AI assistant platform: a modular, real-time agent system that keep
 
 ### 🚀 Other Projects *(completed)*
 
-- 🎓 **[FantasyBasketballApp](https://github.com/erturkeryavuz/fantasy-basketball)** — AI-driven fantasy basketball mobile app with LLM integration and live player stats. University graduation project.
+- 🎓 **[FantasyBasketballApp](https://github.com/erturkeryavuz/fantasy-basketball)** — AI-driven fantasy basketball app with LLM integration and live player stats. University graduation project.
+- 📈 **[TSLAIQ](https://github.com/erturkeryavuz/TSLAIQ)** — prediction and alerting system for Tesla (TSLA) stock, generating signal-based alerts from market data.
 - ⚽ **[Euro2024App](https://github.com/erturkeryavuz/Euro2024App)** — mobile app built around live tournament data.
 - 🏀 **[NBASHOP](https://github.com/erturkeryavuz/NBASHOP)** — e-commerce concept app for NBA merchandise.
-- 📈 **[TSLAIQ](https://github.com/erturkeryavuz/TSLAIQ)** — a prediction and alerting system for Tesla (TSLA) stock, generating signal-based alerts from market data.
 
 ---
 
