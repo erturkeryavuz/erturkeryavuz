@@ -111,17 +111,7 @@ Python · LLMs · Agentic Workflows · Automation · Tool Calling · Enterprise 
 
 ---
 
-### 📈 GitHub Activity
-
-<p align="center">
-  <a href="https://github.com/erturkeryavuz">
-    <img
-      src="https://github-readme-activity-graph.vercel.app/graph?username=erturkeryavuz&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=79C0FF&area=true&hide_border=true"
-      alt="GitHub Activity Graph"
-      width="100%"
-    />
-  </a>
-</p>
+### 📊 GitHub
 
 <p align="center">
   <img
