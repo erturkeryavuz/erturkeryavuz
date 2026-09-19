@@ -1,38 +1,62 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=F75C7E,6E4B7C,00B2B1&center=true&vCenter=true&width=950&lines=AI+Engineer+%26+Backend+Developer;Building+RAG+systems+that+measure%2C+not+just+answer;Local-first+AI+agents%2C+private+by+design;From+FastAPI+pipelines+to+statistically+significant+evals" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=F75C7E,6E4B7C,00B2B1&center=true&vCenter=true&width=950&lines=AI+Engineer+%7C+Python+Developer;Building+RAG%2C+Agentic+AI+%26+Automation+Systems;Provider-agnostic+LLM+%26+AI+architectures;From+backend+engineering+to+enterprise+AI" alt="Typing SVG" />
 </p>
 
 <h1 align="center">Hi, I'm Ertürk Eryavuz 👋</h1>
 
 <p align="center">
-  <a href="https://linkedin.com/in/erturkeryavuz"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:erturkeryavuz@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://linkedin.com/in/erturkeryavuz">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+  <a href="mailto:erturkeryavuz@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
 </p>
 
 ---
 
 ### 🧭 About Me
 
-I build backend systems and AI-powered applications — FastAPI services, LLM integrations, and the retrieval/data pipelines underneath them. Most recently at **Eczacıbaşı–Esan**, where I built Python reporting pipelines and AI chatbot solutions on Microsoft Copilot Studio, and shipped an internal analytics assistant powered by DeepSeek.
+I'm a **Computer Engineer focused on AI engineering, backend development, LLM systems, and intelligent automation**.
 
-- 🔭 **Currently building:** RAG Platform & NEXUS (see below)
-- 🌱 **Deepening skills in:** LLM systems, retrieval architectures, agentic tool-calling, and SwiftUI
-- 🤝 **Open to:** backend, AI engineering, and automation-driven projects
-- 🎓 Computer Engineering, Maltepe University — graduation project: AI-driven fantasy basketball app with LLM integration
+I build practical AI systems with **Python, FastAPI, RAG, LLMs, agentic architectures, and data-driven pipelines**, with a strong focus on clean architecture, evaluation, reliability, and real-world automation.
+
+- 🔭 **Currently building:** QUO, RAG Platform & AI-Enterprise-Automation
+- 🧠 **Focus areas:** LLM systems, RAG, multi-agent architectures, AI automation, backend engineering, and evaluation
+- 🌐 **Exploring:** Hugging Face, large language models, provider-agnostic AI architectures, and local + cloud AI systems
+- 🎓 **Computer Engineering graduate** — Maltepe University, 2025
 
 ---
 
 ### 🧪 Highlighted Projects
 
-#### 🔍 RAG Platform *(private repo — happy to walk through the code or share access on request)*
+#### 🧠 QUO — AI Organization / AI Office
 
-Production-minded RAG system — hybrid retrieval (dense + BM25 + RRF), cross-encoder reranking, and a rigorous eval harness (recall@k, bootstrap CI, McNemar tests). Fully local and free via Ollama; extended to a real-world Turkish fraud-awareness corpus sourced from official government institutions.
+A local-first AI orchestration system evolving from the original NEXUS project.
 
-FastAPI · Qdrant · sentence-transformers · pytest · GitHub Actions CI.
+QUO is designed as a high-level AI orchestrator that can coordinate specialized agents and external capabilities such as **Developer, RAG, and Automation agents**.
 
-#### 🤖 NEXUS — Local AI Assistant *(private repo — happy to walk through the code or share access on request)*
+Current architecture includes agent planning, task graphs, execution, evaluation, checkpointing, tool systems, security hardening, real-time events, and a React/Three.js interface.
 
-A local-first, privacy-focused AI assistant — FastAPI + WebSocket backend, real-time React/Three.js interface, fully local LLM inference via Ollama, agentic tool-calling, and persistent memory.
+Long-term goal: a locally running **AI Office / AI Organization** where real agent state and execution are visualized in a 3D environment.
+
+Python · FastAPI · LLMs · Agent Orchestration · React · Three.js · WebSockets · SQLite
+
+#### 🔍 RAG Platform
+
+A professional, provider-agnostic RAG platform focused on reliable retrieval and grounded generation.
+
+The system combines **dense retrieval, BM25, hybrid search, RRF, embeddings, reranking, persistence, evaluation, and observability**, with support planned for local and hosted LLM providers including **Ollama and Hugging Face**.
+
+FastAPI · Qdrant · BM25 · RAG · Hugging Face · pytest · SQLite
+
+#### ⚙️ AI-Enterprise-Automation
+
+A modular enterprise AI automation platform focused on **agentic workflows, tool execution, planning, permissions, approvals, durable execution, and enterprise integrations**.
+
+The architecture is designed to remain provider-agnostic and support both local models and larger hosted/cloud LLMs.
+
+Python · LLMs · Agentic Workflows · Automation · Tool Calling · Enterprise AI
 
 ---
 
@@ -47,12 +71,10 @@ A local-first, privacy-focused AI assistant — FastAPI + WebSocket backend, rea
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 
-**Backend, Data & Frontend**
+**Backend & Data**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -61,13 +83,17 @@ A local-first, privacy-focused AI assistant — FastAPI + WebSocket backend, rea
 **AI / ML**
 
 ![LLMs](https://img.shields.io/badge/LLMs-412991?style=for-the-badge&logo=openai&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-6A5ACD?style=for-the-badge)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge)
 ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge)
 ![NLP](https://img.shields.io/badge/NLP-FF6F61?style=for-the-badge)
 ![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-8A2BE2?style=for-the-badge)
 
-**Tools & Platforms**
+**Frontend & Tools**
 
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
@@ -76,12 +102,12 @@ A local-first, privacy-focused AI assistant — FastAPI + WebSocket backend, rea
 
 ---
 
-### 🚀 Other Projects *(completed)*
+### 🚀 Other Projects
 
-- 🎓 **[FantasyBasketballApp](https://github.com/erturkeryavuz/fantasy-basketball)** — AI-driven fantasy basketball app with LLM integration and live player stats. University graduation project.
-- 📈 **[TSLAIQ](https://github.com/erturkeryavuz/TSLAIQ)** — prediction and alerting system for Tesla (TSLA) stock, generating signal-based alerts from market data.
-- ⚽ **[Euro2024App](https://github.com/erturkeryavuz/Euro2024App)** — mobile app built around live tournament data.
-- 🏀 **[NBASHOP](https://github.com/erturkeryavuz/NBASHOP)** — e-commerce concept app for NBA merchandise.
+- 🎓 **[FantasyBasketballApp](https://github.com/erturkeryavuz/fantasy-basketball)** — AI-driven fantasy basketball application with LLM integration and live player data. University graduation project.
+- 📈 **[TSLAIQ](https://github.com/erturkeryavuz/TSLAIQ)** — Market data analysis and signal-based alerting system for Tesla (TSLA).
+- ⚽ **[Euro2024App](https://github.com/erturkeryavuz/Euro2024App)** — Mobile application built around tournament data.
+- 🏀 **[NBASHOP](https://github.com/erturkeryavuz/NBASHOP)** — NBA merchandise e-commerce concept application.
 
 ---
 
