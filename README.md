@@ -115,14 +115,15 @@ Python · LLMs · Agentic Workflows · Automation · Tool Calling · Enterprise 
 
 <p align="center">
   <img
-    src="https://ghchart.rshah.org/6e4b7c/erturkeryavuz"
-    alt="Ertürk Eryavuz GitHub Contributions"
+    src="BURAYA_HEATMAP"
+    alt="GitHub Contribution Calendar"
+    width="900"
   />
 </p>
 
 <p align="center">
   <img
-    src="https://komarev.com/ghpvc/?username=erturkeryavuz&label=Profile%20Views&color=00B2B1&style=flat"
+    src="https://komarev.com/ghpvc/?username=erturkeryavuz&label=Profile%20Views&style=flat"
     alt="Profile Views"
   />
 </p>
