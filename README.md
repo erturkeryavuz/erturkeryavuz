@@ -115,15 +115,15 @@ Python · LLMs · Agentic Workflows · Automation · Tool Calling · Enterprise 
 
 <p align="center">
   <img
-    src="BURAYA_HEATMAP"
-    alt="GitHub Contribution Calendar"
+    src="./assets/github-contributions.svg"
+    alt="GitHub Contribution Activity"
     width="900"
   />
 </p>
 
 <p align="center">
   <img
-    src="https://komarev.com/ghpvc/?username=erturkeryavuz&label=Profile%20Views&style=flat"
+    src="https://komarev.com/ghpvc/?username=erturkeryavuz&label=Profile%20Views&color=00B2B1&style=flat"
     alt="Profile Views"
   />
 </p>
