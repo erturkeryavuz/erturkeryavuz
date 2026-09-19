@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=F75C7E,6E4B7C,00B2B1&center=true&vCenter=true&width=950&lines=AI+Engineer+%7C+Python+Developer;Building+RAG%2C+Agentic+AI+%26+Automation+Systems;Provider-agnostic+LLM+%26+AI+architectures;From+backend+engineering+to+enterprise+AI" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=58A6FF,4CC9F0,79C0FF&center=true&vCenter=true&width=950&lines=AI+Engineer+%7C+Python+Developer;Building+RAG%2C+Agentic+AI+%26+Automation+Systems;Provider-agnostic+LLM+%26+AI+architectures;From+backend+engineering+to+enterprise+AI" alt="Typing SVG" />
 </p>
 
 <h1 align="center">Hi, I'm Ertürk Eryavuz 👋</h1>
@@ -111,14 +111,16 @@ Python · LLMs · Agentic Workflows · Automation · Tool Calling · Enterprise 
 
 ---
 
- ### 📈 GitHub Activity
+### 📈 GitHub Activity
 
 <p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=erturkeryavuz&bg_color=0D1117&color=58A6FF&line=1F6FEB&point=79C0FF&area=true&area_color=0D2A4A&hide_border=true"
-    alt="GitHub Activity Graph"
-    width="100%"
-  />
+  <a href="https://github.com/erturkeryavuz">
+    <img
+      src="https://github-readme-activity-graph.vercel.app/graph?username=erturkeryavuz&theme=react-dark&hide_border=true&area=true"
+      alt="GitHub Activity Graph"
+      width="100%"
+    />
+  </a>
 </p>
 
 <p align="center">
