@@ -111,8 +111,10 @@ Python · LLMs · Agentic Workflows · Automation · Tool Calling · Enterprise 
 
 ---
 
-### 📊 GitHub Stats
+### 📈 GitHub Activity
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=erturkeryavuz&color=brightgreen&label=Profile+Views" />
+  <a href="https://github.com/erturkeryavuz">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=erturkeryavuz&hide_border=true&area=true" alt="GitHub Activity Graph" />
+  </a>
 </p>
