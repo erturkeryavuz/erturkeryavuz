@@ -1,121 +1,106 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=58A6FF,4CC9F0,79C0FF&center=true&vCenter=true&width=950&lines=AI+Engineer+%7C+Python+Developer;Building+RAG%2C+Agentic+AI+%26+Automation+Systems;Provider-agnostic+LLM+%26+AI+architectures;From+backend+engineering+to+enterprise+AI" alt="Typing SVG" />
-</p>
+# Ertürk Eryavuz
 
-<h1 align="center">Hi, I'm Ertürk Eryavuz 👋</h1>
+**AI Engineer & Python Backend Developer** · Istanbul, Turkey  
+Computer Engineering graduate (Maltepe University, 2025) focused on **LLM/RAG systems, agent orchestration, deterministic workflow runtimes, and Python backend engineering**.
 
-<p align="center">
-  <a href="https://linkedin.com/in/erturkeryavuz">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
-  <a href="mailto:erturkeryavuz@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-  </a>
-</p>
+[LinkedIn](https://www.linkedin.com/in/erturkeryavuz) · [Email](mailto:erturkeryavuz@gmail.com) · [GitHub](https://github.com/erturkeryavuz)
+
+**Quick Navigation:** [Featured AI Systems (Live Demos)](#featured-ai-systems--live-interactive-demos) · [Mobile Applications](#mobile-applications) · [Additional Repositories](#additional-repositories) · [Technical Stack](#technical-stack) · [Contact](#contact)
 
 ---
 
-### 🧭 About Me
+## Engineering Approach
 
-I'm a **Computer Engineer focused on AI engineering, backend development, LLM systems, and intelligent automation**.
-
-I build practical AI systems with **Python, FastAPI, RAG, LLMs, agentic architectures, and data-driven pipelines**, with a strong focus on clean architecture, evaluation, reliability, and real-world automation.
-
-- 🔭 **Currently building:** QUO, RAG Platform & AI-Enterprise-Automation
-- 🧠 **Focus areas:** LLM systems, RAG, multi-agent architectures, AI automation, backend engineering, and evaluation
-- 🌐 **Exploring:** Hugging Face, large language models, provider-agnostic AI architectures, and local + cloud AI systems
-- 🎓 **Computer Engineering graduate** — Maltepe University, 2025
+I build local-first AI and backend systems around **predictability, explicit authorization boundaries, and inspectable evidence** — favoring verifiable retrieval, bounded tool execution, deterministic validation, and candid reporting of model limitations over opaque automation.
 
 ---
 
-### 🧪 Highlighted Projects
+## Featured AI Systems — Live Interactive Demos
 
-#### 🧠 QUO — AI Organization / AI Office
+These three private, local-first AI systems are presented through **public, self-contained interactive showcases** on GitHub Pages. Each live site replays real recorded runs from its local runtime over synthetic or public benchmark data, with **no live browser-side inference and no external backend connection**, so reviewers can inspect plans, rankings, approvals, provenance records, and documented failure modes directly.
 
-A local-first AI orchestration system evolving from the original NEXUS project.
+### 1. QUO · Conductor — Local AI Orchestration Runtime
+**[→ Open Live Demo](https://erturkeryavuz.github.io/quo-conductor-demo/)** · [Demo Repository & Notes](https://github.com/erturkeryavuz/quo-conductor-demo) · `Status: Live Static Showcase (8 Recorded Runs)`
 
-QUO is designed as a high-level AI orchestrator that can coordinate specialized agents and external capabilities such as **Developer, RAG, and Automation agents**.
+[![QUO Conductor overview showing planned workflows, authorization states, and execution timeline](https://erturkeryavuz.github.io/quo-conductor-demo/media/quo-01-overview.png)](https://erturkeryavuz.github.io/quo-conductor-demo/)
 
-Current architecture includes agent planning, task graphs, execution, evaluation, checkpointing, tool systems, security hardening, real-time events, and a React/Three.js interface.
-
-Long-term goal: a locally running **AI Office / AI Organization** where real agent state and execution are visualized in a 3D environment.
-
-Python · FastAPI · LLMs · Agent Orchestration · React · Three.js · WebSockets · SQLite
-
-#### 🔍 RAG Platform
-
-A professional, provider-agnostic RAG platform focused on reliable retrieval and grounded generation.
-
-The system combines **dense retrieval, BM25, hybrid search, RRF, embeddings, reranking, persistence, evaluation, and observability**, with support planned for local and hosted LLM providers including **Ollama and Hugging Face**.
-
-FastAPI · Qdrant · BM25 · RAG · Hugging Face · pytest · SQLite
-
-#### ⚙️ AI-Enterprise-Automation
-
-A modular enterprise AI automation platform focused on **agentic workflows, tool execution, planning, permissions, approvals, durable execution, and enterprise integrations**.
-
-The architecture is designed to remain provider-agnostic and support both local models and larger hosted/cloud LLMs.
-
-Python · LLMs · Agentic Workflows · Automation · Tool Calling · Enterprise AI
+- **Plan-then-execute orchestration:** Routes simple questions directly and decomposes tool-requiring requests into dependency-ordered plans where each step runs through a declared capability with an effect class, permission policy, and time budget.
+- **Mandatory write authorization:** Read-only capabilities run by policy, while workspace writes pause for explicit approval bound to the exact action digest; refusals and mid-run cancellations halt execution without invoking the tool.
+- **Inspectable execution journal:** Reconstructs the interface, timeline, telemetry, and full payload log from a durable journal, while transparently documenting small local-model (`llama3.2:3b`) answer mistakes and scripted-client approval playback.
+- **Publicly demonstrated capabilities:** Local LLM orchestration (`llama3.2:3b`), capability-scoped tool execution, approval/refusal/cancellation flows, durable journaling.
 
 ---
 
-### 🛠️ Tech Stack
+### 2. RAG Platform · Evidence Desk — Hybrid Retrieval & Cited Generation
+**[→ Open Live Demo](https://erturkeryavuz.github.io/rag-evidence-desk-demo/)** · [Demo Repository & Notes](https://github.com/erturkeryavuz/rag-evidence-desk-demo) · `Status: Live Static Showcase (Synthetic Corpus & Benchmarks)`
 
-**Languages**
+[![RAG Platform Evidence Desk showing a cross-document cited answer traced directly to source passages](https://erturkeryavuz.github.io/rag-evidence-desk-demo/media/rag-03-featured-answer.png)](https://erturkeryavuz.github.io/rag-evidence-desk-demo/)
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-
-**Backend & Data**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-
-**AI / ML**
-
-![LLMs](https://img.shields.io/badge/LLMs-412991?style=for-the-badge&logo=openai&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-6A5ACD?style=for-the-badge)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge)
-![NLP](https://img.shields.io/badge/NLP-FF6F61?style=for-the-badge)
-![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-8A2BE2?style=for-the-badge)
-
-**Frontend & Tools**
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![SAP](https://img.shields.io/badge/SAP-0FAAFF?style=for-the-badge&logo=sap&logoColor=white)
+- **Hybrid retrieval with Reciprocal Rank Fusion:** Combines dense embeddings (`multilingual-e5-small`) and BM25 lexical search so both semantic questions and exact error codes (such as `PW-4107`) reach the top-five context window.
+- **Citation tracing & refusal discipline:** Links every citation marker to the exact passage given to the model, runs deterministic marker-resolution checks alongside manual groundedness review, and refuses questions unsupported by the corpus.
+- **Empirical reranker evaluation:** Benchmarks an optional cross-encoder reranker (`ms-marco-MiniLM-L-6-v2`) on labelled English (20 questions) and Turkish (21 questions) sets — keeping it disabled by default after measuring lower Recall@1 and higher latency, and publishing reviewed 3B-model failure cases openly.
+- **Publicly demonstrated capabilities:** Dense + BM25 hybrid retrieval, RRF, cross-encoder evaluation, grounded citation inspection, 2D PCA corpus view, local Ollama generation (`llama3.2:3b`).
 
 ---
 
-### 🚀 Other Projects
+### 3. AI Enterprise Automation · Ledger — Governed Workflows & File Provenance
+**[→ Open Live Demo](https://erturkeryavuz.github.io/aiea-ledger-demo/)** · [Demo Repository & Notes](https://github.com/erturkeryavuz/aiea-ledger-demo) · `Status: Live Static Showcase (26 Recorded Scenarios)`
 
-- 🎓 **[FantasyBasketballApp](https://github.com/erturkeryavuz/fantasy-basketball)** — AI-driven fantasy basketball application with LLM integration and live player data. University graduation project.
-- 📈 **[TSLAIQ](https://github.com/erturkeryavuz/TSLAIQ)** — Market data analysis and signal-based alerting system for Tesla (TSLA).
-- ⚽ **[Euro2024App](https://github.com/erturkeryavuz/Euro2024App)** — Mobile application built around tournament data.
-- 🏀 **[NBASHOP](https://github.com/erturkeryavuz/NBASHOP)** — NBA merchandise e-commerce concept application.
+[![AIEA Ledger showing the six-stage governed file lifecycle from blocked write to verified revision and drift detection](https://erturkeryavuz.github.io/aiea-ledger-demo/media/aiea-01-overview.png)](https://erturkeryavuz.github.io/aiea-ledger-demo/)
+
+- **Strict pre-execution validation:** Rejects unknown keys or tools, duplicate IDs, dependency cycles, dangling references, and oversized requests before any step starts, then runs valid steps deterministically one at a time in dependency order.
+- **High-risk step authorization & process isolation:** Blocks unapproved high-risk writes across both interactive terminal prompts and JSON contract mode, executing each tool call in a separate subprocess with an empty environment and supporting idempotent replay of identical requests.
+- **SQLite provenance & external drift detection:** Records run history and SHA-256 artifact manifests so `verify`, `inspect`, and `prune` detect external file tampering (`content_mismatch`), missing/untracked files, and superseded revisions across 41 recorded CLI commands.
+- **Publicly demonstrated capabilities:** Python CLI workflow runtime, DAG/schema validation, authorization gates, subprocess isolation, SQLite provenance tracking.
 
 ---
 
-### 📊 GitHub
+## Mobile Applications
 
-<p align="center">
-  <img
-    src="https://komarev.com/ghpvc/?username=erturkeryavuz&label=Profile%20Views&color=58A6FF&style=flat"
-    alt="Profile Views"
-  />
-</p>
+Both projects have publicly available source repositories. Interactive, phone-framed web showcases are planned as upcoming portfolio milestones and are not yet published. Each summary reflects features verified in the available source code.
+
+### Fantasy Basketball Platform
+[Source Repository](https://github.com/erturkeryavuz/fantasy-basketball) · `Status: Public Source Code · Interactive Mobile Showcase Planned`
+
+- **Full-stack graduation project (Maltepe University):** Combines a **Django + Django REST Framework** backend with a native **SwiftUI** iOS client.
+- **Verified iOS & API workflows:** Token-authenticated registration and login, team and player directories, player detail cards across six rarity tiers (`Gold` through `DarkBlueDiamond`), a credit-based `PackMarket` with randomized card-pack opening (`POST /api/open-pack/`), and a personal `My Cards` inventory.
+- **Backend league engine:** Implements relational Django models and REST endpoints for leagues, league membership, match schedules, result recording, player/team statistics, and league standings.
+- **Stack:** Python · Django · Django REST Framework · SQLite · Swift · SwiftUI
+
+### Euro2024App — Tournament Companion
+[Source Repository](https://github.com/erturkeryavuz/Euro2024App) · `Status: Public Source Code · Interactive Mobile Showcase Planned`
+
+- **Native iOS tournament viewer:** SwiftUI application built for browsing UEFA Euro 2024 fixtures, match detail timelines (goals and cards), group standings, team pages, and tournament news.
+- **Multi-facet player explorer & user profile:** Includes a filterable player directory (filtering by position, country, and minimum rating) alongside Firebase Authentication, Firestore-backed user profiles, and favorite team/player/match selections.
+- **Data ingestion pipeline:** Includes a Python Firebase Admin SDK script (`euro2024_matches.py`) that uploads structured match and event JSON datasets into nested Firestore collections.
+- **Stack:** Swift · SwiftUI · Firebase (Auth, Firestore, Storage) · Python
+
+---
+
+## Additional Repositories
+
+| Repository | Stack | Source-Verified Summary | Status |
+|---|---|---|---|
+| **[TSLAIQ](https://github.com/erturkeryavuz/TSLAIQ)** | Python, TensorFlow / Keras, pandas, scikit-learn, `yfinance`, `ta` | Financial time-series research pipeline ingesting historical TSLA data, engineering technical indicators (RSI, EMA20, EMA50, MACD, OBV), comparing baseline LSTM vs. attention-augmented LSTM checkpoints, and generating threshold-based CLI signals. | Research archive |
+| **[NBASHOP](https://github.com/erturkeryavuz/NBASHOP)** | PHP, MySQL, Bootstrap, HTML/CSS, JavaScript | University coursework e-commerce storefront and PHP admin panel built on an EShopper Bootstrap template. | Coursework archive |
+
+---
+
+## Technical Stack
+
+| Domain | Technologies & Practices |
+|---|---|
+| **Languages** | Python, TypeScript, Swift, JavaScript, SQL |
+| **AI & LLM Systems** | Local LLMs (Ollama), RAG (Dense Embeddings, BM25, RRF, Cross-Encoder Reranking), Agent Orchestration, Groundedness & Retrieval Evaluation |
+| **Backend & Data** | FastAPI, Django, Django REST Framework, SQLite, PostgreSQL, pandas, NumPy |
+| **Frontend & Mobile** | SwiftUI, React, HTML5 / CSS3, Responsive Static Web Interfaces |
+| **Engineering Practices** | Git, REST API Design, `pytest`, Deterministic Validation, Permission & Subprocess Boundaries |
+
+---
+
+## Contact
+
+Open to **Junior / Early-Career AI Engineering, LLM/RAG, Agent Systems, and Python Backend** opportunities.
+
+- **LinkedIn:** [linkedin.com/in/erturkeryavuz](https://www.linkedin.com/in/erturkeryavuz)
+- **Email:** [erturkeryavuz@gmail.com](mailto:erturkeryavuz@gmail.com)
