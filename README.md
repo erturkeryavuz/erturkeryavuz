@@ -35,7 +35,7 @@ Building local-first LLM/RAG pipelines, governed AI agent runtimes, and inspecta
 
 ## Featured Projects
 
-> My three flagship AI engineering systems (**QUO**, **RAG Platform**, and **AI Enterprise Automation**) are private local-first repositories presented through **public, self-contained interactive showcases** on GitHub Pages. Each live site replays real recorded backend runs over synthetic or public benchmark data — with **no live browser-side inference and no external backend connection** — so reviewers can inspect plans, retrieval rankings, approval gates, provenance records, and failure modes directly. **Fantasy Basketball** is a public full-stack graduation project with a live interactive showcase.
+> My three flagship AI engineering systems (**QUO**, **RAG Platform**, and **AI Enterprise Automation**) are private local-first repositories presented through **public, self-contained interactive showcases** on GitHub Pages. Each live site replays real recorded backend runs over synthetic or public benchmark data — with **no live browser-side inference and no external backend connection** — so reviewers can inspect plans, retrieval rankings, approval gates, provenance records, and failure modes directly. **Fantasy Basketball** is a full-stack graduation project (private source) presented through a public, interactive phone-framed showcase.
 
 ### 1. QUO · Conductor — Local AI Orchestration Runtime
 
@@ -78,13 +78,13 @@ Building local-first LLM/RAG pipelines, governed AI agent runtimes, and inspecta
 
 ### 4. Fantasy Basketball Platform — Full-Stack Django DRF & SwiftUI Application
 
-**[Open Live Showcase →](https://erturkeryavuz.github.io/fantasy-basketball/)** · [Public Source Repository](https://github.com/erturkeryavuz/fantasy-basketball) · `Public Source · Interactive Phone-Framed Showcase`
+**[Open Live Showcase →](https://erturkeryavuz.github.io/fantasy-basketball-demo/)** · [Public Demo Repository](https://github.com/erturkeryavuz/fantasy-basketball-demo) · `Private Source · Interactive Phone-Framed Showcase`
 
-[![Fantasy Basketball interactive showcase displaying the SwiftUI PackMarket screen alongside the matching Django REST Framework Live API Trace](assets/fantasy-basketball-preview.png)](https://erturkeryavuz.github.io/fantasy-basketball/)
+[![Fantasy Basketball interactive showcase displaying the SwiftUI PackMarket screen alongside the matching Django REST Framework Live API Trace](assets/fantasy-basketball-preview.png)](https://erturkeryavuz.github.io/fantasy-basketball-demo/)
 
 - **Full-stack graduation project (Maltepe University):** Combines a **Django 5 + Django REST Framework** API backend with a native **SwiftUI** iOS client, verified by an automated backend API regression suite.
 - **End-to-end iOS & API workflows:** Implements token-authenticated registration/login, team and club rosters, a 4-filter player directory, six auto-assigned rarity tiers (`Gold` through `DarkBlueDiamond`), atomic credit-based `PackMarket` pack opening (`POST /api/open-pack/`), and a personal `My Cards` inventory.
-- **Relational league engine & static showcase:** Includes staff-gated backend REST endpoints for 10-player leagues, round-robin schedules, match results, and standings (backend-only, not yet wired in SwiftUI), paired with a browser-only static showcase displaying live matching serializer traces and [third-party photo notices](https://erturkeryavuz.github.io/fantasy-basketball/notices.html).
+- **Relational league engine & static showcase:** Includes staff-gated backend REST endpoints for 10-player leagues, round-robin schedules, match results, and standings (backend-only, not yet wired in SwiftUI), paired with a browser-only static showcase displaying live matching serializer traces and [third-party photo notices](https://erturkeryavuz.github.io/fantasy-basketball-demo/notices.html).
 - **Core stack:** Python · Django 5 · Django REST Framework · SQLite · Swift · SwiftUI · HTML5 / CSS3 / ES Modules
 
 ---
@@ -146,7 +146,7 @@ Historical `TSLA` time-series analytics and Keras sequence-modeling pipeline acr
 *Scope & honesty note:* Educational research only (not live market data or investment advice). In the reported evaluation, historical logged LSTM checkpoints did not outperform the naive persistence baseline (`$9.68–$9.69` USD RMSE), and fresh TensorFlow/Keras runtime retraining was not verified on the offline test host.  
 **Stack:** Python · TensorFlow / Keras · `pandas` · `scikit-learn` · `yfinance` · HTML5 / CSS3 / JS
 
-#### [Euro2024App](https://github.com/erturkeryavuz/Euro2024App) · [Live Interactive Showcase →](https://erturkeryavuz.github.io/Euro2024App/)
+#### Euro2024App · [Live Interactive Showcase →](https://erturkeryavuz.github.io/euro2024app-demo/) · [Public Demo Repository](https://github.com/erturkeryavuz/euro2024app-demo) · `Private Source`
 Native SwiftUI and Firebase iOS football companion featuring match timelines, unified standings, 20 national teams, a filterable 220-player directory, user profiles, and a Python Firestore seeding script — paired with a phone-framed static web showcase.  
 *Scope & honesty note:* Built over a static bundled sample dataset (2020/2021-era squads and synthetic demonstration fixtures), not live or official UEFA Euro 2024 tournament data.  
 **Stack:** Swift · SwiftUI · Firebase (Auth, Firestore, Storage) · Python · HTML5 / CSS3 / ES Modules
@@ -171,7 +171,7 @@ Precious-metals accounting and statistical research platform demonstrating exact
 ## Background and Contact
 
 - **Education:** B.Sc. in Computer Engineering, **Maltepe University** (2025)
-- **Project Boundary:** All featured and supporting showcases above represent independent personal or academic engineering projects; private AI and frozen financial-research source repositories remain private while their verified behavior and limitations are shared through public static showcases.
+- **Project Boundary:** All featured and supporting showcases above represent independent personal or academic engineering projects; private AI, mobile/full-stack, and frozen financial-research source repositories remain private while their verified behavior and limitations are shared through public static showcases.
 - **Availability:** Open to **Junior / Early-Career AI Engineering, LLM/RAG, Agent Systems, and Python Backend** roles.
 
 **Connect:** [LinkedIn](https://www.linkedin.com/in/erturkeryavuz) · [erturkeryavuz@gmail.com](mailto:erturkeryavuz@gmail.com) · [GitHub](https://github.com/erturkeryavuz)
