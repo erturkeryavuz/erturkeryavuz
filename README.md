@@ -156,12 +156,22 @@ Legacy procedural PHP/MySQL e-commerce storefront and admin panel refactored for
 *Scope & honesty note:* Runs strictly in non-payment order-preview mode (no live payment processing) and is not affiliated with or endorsed by the NBA or any commercial sports brand.  
 **Stack:** PHP · MySQL · GitHub Actions CI · Apache 2.4 · HTML5 / CSS3 / JS
 
+#### Trading Edge Terminal · [Live Research Showcase →](https://erturkeryavuz.github.io/trading-edge-terminal-demo/) · [Public Demo Repository](https://github.com/erturkeryavuz/trading-edge-terminal-demo) · `Private Source · Frozen`
+Historical U.S. financial research workstation combining public-domain SEC EDGAR XBRL fundamentals, U.S. Treasury yield curves, explainable GAAP screening and scoring (`m2u3-accounting-score-v1`), structured risk rules, and a synthetic point-in-time bar-revision replay.  
+*Scope & honesty note:* Frozen private engineering project presented via a dated `2026-11-12` historical snapshot and synthetic revision fixture — no live equity prices, brokerage integration, validated profitable strategy, or investment advice.  
+**Stack:** Python (stdlib) · SQLite · SEC EDGAR XBRL · U.S. Treasury CSV · HTML5 / CSS3 / SVG / JS
+
+#### GoSil · [Live Research Showcase →](https://erturkeryavuz.github.io/gosil-analytics-demo/) · [Public Demo Repository](https://github.com/erturkeryavuz/gosil-analytics-demo) · `Private Source · Frozen`
+Precious-metals accounting and statistical research platform demonstrating exact fixed-point integer math (`e4` TRY / `ug` mass), 6-tier price separation, exact `31.1034768` g/oz currency decomposition, `900s` spread/freshness gates, and purged walk-forward baseline evaluation.  
+*Scope & honesty note:* Frozen private engineering project presented as a 100% synthetic showcase — no live prices, real personal financial data, LLM forecasting engine, or reliable future-price prediction claims.  
+**Stack:** Python · SQLite (`STRICT`) · Fixed-Point / `Fraction` Math · Walk-Forward Statistics · HTML5 / CSS3 / SVG / JS
+
 ---
 
 ## Background and Contact
 
 - **Education:** B.Sc. in Computer Engineering, **Maltepe University** (2025)
-- **Project Boundary:** All featured showcases above represent independent personal or academic engineering projects; private AI source repositories remain private while their verified behavior and limitations are shared through public static showcases.
+- **Project Boundary:** All featured and supporting showcases above represent independent personal or academic engineering projects; private AI and frozen financial-research source repositories remain private while their verified behavior and limitations are shared through public static showcases.
 - **Availability:** Open to **Junior / Early-Career AI Engineering, LLM/RAG, Agent Systems, and Python Backend** roles.
 
 **Connect:** [LinkedIn](https://www.linkedin.com/in/erturkeryavuz) · [erturkeryavuz@gmail.com](mailto:erturkeryavuz@gmail.com) · [GitHub](https://github.com/erturkeryavuz)
