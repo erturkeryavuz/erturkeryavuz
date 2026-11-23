@@ -141,9 +141,9 @@ Git, GitHub Actions CI, `pytest` & `unittest`, Deterministic Schema Validation, 
 
 ## More Projects
 
-#### [TSLAIQ](https://github.com/erturkeryavuz/TSLAIQ) · [Live Research Showcase →](https://erturkeryavuz.github.io/TSLAIQ/)
-Historical `TSLA` time-series analytics and Keras sequence-modeling pipeline across 15 years of daily OHLCV data (`2010-06-29` to `2025-06-05`, `3,758` trading days) with RSI, EMA20, EMA50, MACD, and OBV indicators, leak-free chronological preprocessing, and a dark interactive analytics showcase.  
-*Scope & honesty note:* Educational research only (not live market data or investment advice). In the reported evaluation, historical logged LSTM checkpoints did not outperform the naive persistence baseline (`$9.68–$9.69` USD RMSE), and fresh TensorFlow/Keras runtime retraining was not verified on the offline test host.  
+#### TSLAIQ · [Live Research Showcase →](https://erturkeryavuz.github.io/tslaiq-demo/) · [Public Demo Repository](https://github.com/erturkeryavuz/tslaiq-demo) · `Private Source`
+Time-series analytics and Keras sequence-modeling research pipeline featuring RSI, EMA20, EMA50, MACD, and OBV indicators, leak-free chronological preprocessing, safe Keras archive inspection, and a dark interactive showcase running over a 100% synthetic daily equity series (`SYNTH-EQ`, 1,500 sessions, seed `20261123`).  
+*Scope & honesty note:* Private engineering repository presented via a fully synthetic static showcase (zero real market data, not live prices or investment advice). In the original private historical experiments, logged LSTM checkpoints did not outperform the naive persistence baseline, and fresh TensorFlow/Keras retraining remains unrun locally.  
 **Stack:** Python · TensorFlow / Keras · `pandas` · `scikit-learn` · `yfinance` · HTML5 / CSS3 / JS
 
 #### Euro2024App · [Live Interactive Showcase →](https://erturkeryavuz.github.io/euro2024app-demo/) · [Public Demo Repository](https://github.com/erturkeryavuz/euro2024app-demo) · `Private Source`
