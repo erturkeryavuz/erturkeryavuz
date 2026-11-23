@@ -151,7 +151,7 @@ Native SwiftUI and Firebase iOS football companion featuring match timelines, un
 *Scope & honesty note:* Built over a static bundled sample dataset (2020/2021-era squads and synthetic demonstration fixtures), not live or official UEFA Euro 2024 tournament data.  
 **Stack:** Swift · SwiftUI · Firebase (Auth, Firestore, Storage) · Python · HTML5 / CSS3 / ES Modules
 
-#### [NBASHOP](https://github.com/erturkeryavuz/NBASHOP) · [Live Storefront Showcase →](https://erturkeryavuz.github.io/NBASHOP/)
+#### NBASHOP · [Live Storefront Showcase →](https://erturkeryavuz.github.io/nbashop-demo/) · [Public Demo Repository](https://github.com/erturkeryavuz/nbashop-demo) · `Private Source`
 Legacy procedural PHP/MySQL e-commerce storefront and admin panel refactored for security across all 46 PHP files (prepared statements, `password_verify`, CSRF/XSS/IDOR protections, safe image upload validation, and Apache `.htaccess` guards — passing `17/17` PHP 8.3 / MySQL 8.0 / Apache 2.4 CI runtime security tests), paired with a synthetic static storefront showcase.  
 *Scope & honesty note:* Runs strictly in non-payment order-preview mode (no live payment processing) and is not affiliated with or endorsed by the NBA or any commercial sports brand.  
 **Stack:** PHP · MySQL · GitHub Actions CI · Apache 2.4 · HTML5 / CSS3 / JS
