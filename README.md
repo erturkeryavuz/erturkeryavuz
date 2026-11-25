@@ -1,177 +1,66 @@
-<div align="center">
-
 # Ertürk Eryavuz
 
-**Computer Engineer · AI Engineering, LLM/RAG Systems, AI Agents & Python Backend**
+**Computer Engineer** — AI engineering, LLM & retrieval systems, agent workflows, and Python backend development.<br>
+Based in Istanbul, Turkey · Open to early-career engineering roles.
 
-Building local-first LLM/RAG pipelines, governed AI agent runtimes, and inspectable Python backend systems.
-
-<p>
-  <a href="https://www.linkedin.com/in/erturkeryavuz" title="LinkedIn">
-    <img src="assets/icons/social-linkedin.svg" alt="LinkedIn" width="40" height="40" />
-  </a>&nbsp;&nbsp;
-  <a href="mailto:erturkeryavuz@gmail.com" title="Email">
-    <img src="assets/icons/social-email.svg" alt="Email" width="40" height="40" />
-  </a>&nbsp;&nbsp;
-  <a href="https://github.com/erturkeryavuz" title="GitHub">
-    <img src="assets/icons/social-github.svg" alt="GitHub" width="40" height="40" />
-  </a>
-</p>
-
-[Featured Projects](#featured-projects) · [Technical Expertise](#technical-expertise) · [More Projects](#more-projects) · [Background and Contact](#background-and-contact)
-
-</div>
+**[Explore Full Visual Portfolio → erturkeryavuz.netlify.app](https://erturkeryavuz.netlify.app/)**
 
 ---
 
-## About Me
+## Featured AI Systems
 
-- 🎓 **Computer Engineering graduate** (Maltepe University, 2025) based in **Istanbul, Turkey**.
-- 🧠 Focusing on **AI Engineering**, **LLM/RAG retrieval and evaluation**, **agent orchestration**, and **Python backend development**.
-- 🛠️ Engineering **local-first, inspectable systems** around explicit authorization gates, citation-grounded answers, deterministic validation, and candid reporting of model limitations.
-- 🎯 Exploring **Junior / Early-Career AI Engineering, LLM/RAG, Agent Systems, and Python Backend** opportunities.
+*These personal systems are backed by private engineering repositories; each public demonstration repository and live browser preview presents verified workflows and recorded outputs without requiring a local backend.*
 
----
+### QUO — Local AI Orchestration Runtime
+Turns plain-language requests into structured tool workflows while keeping workspace edits under explicit human control. Routes direct questions immediately, compiles dependency-ordered plans only when tools are required, enforces capability-scoped permissions with mandatory write approval, and records every phase and payload in a durable run journal (`Python`, `FastAPI`, `Ollama`, `SQLite`).
 
-## Featured Projects
+**[Live Demo](https://erturkeryavuz.github.io/quo-conductor-demo/)** · [Demo Repository](https://github.com/erturkeryavuz/quo-conductor-demo)
 
-> My three flagship AI engineering systems (**QUO**, **RAG Platform**, and **AI Enterprise Automation**) are private local-first repositories presented through **public, self-contained interactive showcases** on GitHub Pages. Each live site replays real recorded backend runs over synthetic or public benchmark data — with **no live browser-side inference and no external backend connection** — so reviewers can inspect plans, retrieval rankings, approval gates, provenance records, and failure modes directly. **Fantasy Basketball** is a full-stack graduation project (private source) presented through a public, interactive phone-framed showcase.
+### RAG Platform — Hybrid Retrieval & Cited Question Answering
+Answers questions from an organization's own documents with verifiable source evidence. Combines dense semantic embeddings and BM25 lexical search through Reciprocal Rank Fusion, attaches inline passage citations, refuses unsupported questions, and evaluates cross-encoder reranking trade-offs across English and Turkish document sets (`Python`, `FastAPI`, `BM25 & RRF`, `Ollama`).
 
-### 1. QUO · Conductor — Local AI Orchestration Runtime
+**[Live Demo](https://erturkeryavuz.github.io/rag-evidence-desk-demo/)** · [Demo Repository](https://github.com/erturkeryavuz/rag-evidence-desk-demo)
 
-**[Open Live Showcase →](https://erturkeryavuz.github.io/quo-conductor-demo/)** · [Public Demo Repository](https://github.com/erturkeryavuz/quo-conductor-demo) · `Private Source · Static Replay Showcase (8 Recorded Runs)`
+### AI Enterprise Automation — Governed Workflow Runtime
+Executes multi-step file and data workflows with pre-flight schema and dependency validation, explicit write authorization across interactive terminal and structured JSON modes, isolated subprocess execution, and cryptographic file-revision manifests to detect external drift (`Python`, `CLI Runtime`, `SQLite`).
 
-[![QUO Conductor showcase showing planned workflows, authorization states, and execution timeline](https://erturkeryavuz.github.io/quo-conductor-demo/media/quo-01-overview.png)](https://erturkeryavuz.github.io/quo-conductor-demo/)
-
-- **Plan-then-execute orchestration:** Routes direct questions immediately and decomposes tool-requiring tasks into dependency-ordered plans where each step runs through a declared capability with an effect class, permission policy, and time budget.
-- **Mandatory write authorization:** Read-only capabilities execute by policy, while workspace writes pause for explicit approval bound to the exact action digest; refusals and mid-run cancellations halt execution without invoking the tool.
-- **Inspectable execution journal:** Reconstructs the interface, timeline, telemetry, and full payload log from a durable journal while candidly documenting small local-model (`llama3.2:3b`) answer mistakes and scripted-client approval playback.
-- **Core stack:** Python · Local LLMs (`Ollama` / `llama3.2:3b`) · Capability-Scoped Tool Execution · Approval Gates · Durable Journaling
+**[Live Demo](https://erturkeryavuz.github.io/aiea-ledger-demo/)** · [Demo Repository](https://github.com/erturkeryavuz/aiea-ledger-demo)
 
 ---
 
-### 2. RAG Platform · Evidence Desk — Hybrid Retrieval & Cited Generation
+## Additional Projects
 
-**[Open Live Showcase →](https://erturkeryavuz.github.io/rag-evidence-desk-demo/)** · [Public Demo Repository](https://github.com/erturkeryavuz/rag-evidence-desk-demo) · `Private Source · Static Replay Showcase (Synthetic Corpus & Benchmarks)`
+*Each link below opens a public browser-only interactive demonstration built over dated historical or synthetic sample data (no live trading, payment processing, or official league affiliation).*
 
-[![RAG Platform Evidence Desk showing a cross-document cited answer traced directly to source passages](https://erturkeryavuz.github.io/rag-evidence-desk-demo/media/rag-03-featured-answer.png)](https://erturkeryavuz.github.io/rag-evidence-desk-demo/)
-
-- **Hybrid retrieval with Reciprocal Rank Fusion:** Combines dense embeddings (`multilingual-e5-small`) and BM25 lexical search so both semantic queries and exact error codes (such as `PW-4107`) surface in the top-five context window.
-- **Citation tracing & refusal discipline:** Links every citation marker to the exact passage provided to the model, pairs deterministic marker-resolution checks with manual groundedness review, and refuses questions unsupported by the corpus.
-- **Empirical reranker evaluation:** Benchmarked an optional cross-encoder reranker (`ms-marco-MiniLM-L-6-v2`) across labelled English (20 questions) and Turkish (21 questions) sets — keeping it disabled by default after measuring lower Recall@1 and higher latency, and publishing reviewed 3B-model failure cases openly.
-- **Core stack:** Python · Dense Embeddings (`multilingual-e5-small`) · BM25 & RRF · Cross-Encoder Evaluation · Local `Ollama` (`llama3.2:3b`) · 2D PCA Corpus View
-
----
-
-### 3. AI Enterprise Automation · Ledger — Governed Workflows & File Provenance
-
-**[Open Live Showcase →](https://erturkeryavuz.github.io/aiea-ledger-demo/)** · [Public Demo Repository](https://github.com/erturkeryavuz/aiea-ledger-demo) · `Private Source · Static Replay Showcase (26 Recorded Scenarios)`
-
-[![AIEA Ledger showing the six-stage governed file lifecycle from blocked write to verified revision and drift detection](https://erturkeryavuz.github.io/aiea-ledger-demo/media/aiea-01-overview.png)](https://erturkeryavuz.github.io/aiea-ledger-demo/)
-
-- **Strict pre-execution validation:** Rejects unknown keys or tools, duplicate IDs, dependency cycles, dangling references, and oversized requests before any step starts, then executes valid steps deterministically one at a time in dependency order.
-- **Authorization & process isolation:** Blocks unapproved high-risk writes across both interactive terminal prompts and JSON contract mode, executes each tool in a separate subprocess with an empty environment, and supports idempotent replay of identical requests.
-- **SQLite provenance & drift detection:** Records run history and SHA-256 artifact manifests so `verify`, `inspect`, and `prune` detect external file tampering (`content_mismatch`), missing/untracked files, and superseded revisions across 41 recorded CLI commands (CLI-only, 5-tool catalog, local approval scope).
-- **Core stack:** Python CLI Runtime · DAG & Schema Validation · Authorization Gates · Subprocess Isolation · SQLite SHA-256 Provenance
+- **Trading Edge Terminal** — Financial research workspace built around primary U.S. corporate filings, peer screening, explainable accounting checks, Treasury yield curves, and point-in-time revision replay (`Python`, `SQLite`). [Live Demo](https://erturkeryavuz.github.io/trading-edge-terminal-demo/) · [Demo Repository](https://github.com/erturkeryavuz/trading-edge-terminal-demo)
+- **TSLAIQ** — Equity time-series analytics and forecasting study comparing technical indicators, chronological validation baselines, and Attention-LSTM sequence modeling on synthetic daily market data (`Python`, `Keras`). [Live Demo](https://erturkeryavuz.github.io/tslaiq-demo/) · [Demo Repository](https://github.com/erturkeryavuz/tslaiq-demo)
+- **GoSil** — Gold and silver market research workspace separating international price moves from exchange-rate effects, comparing buying and selling costs, and evaluating statistical forecasting baselines (`Python`, `SQLite`). [Live Demo](https://erturkeryavuz.github.io/gosil-analytics-demo/) · [Demo Repository](https://github.com/erturkeryavuz/gosil-analytics-demo)
+- **Fantasy Basketball** *(B.Sc. Graduation Project)* — Collectible basketball card and roster-management application pairing a native iOS client with a REST backend for weighted card packs, club rosters, and league schedules (`SwiftUI`, `Django REST Framework`). [Live Demo](https://erturkeryavuz.github.io/fantasy-basketball-demo/) · [Demo Repository](https://github.com/erturkeryavuz/fantasy-basketball-demo)
+- **Euro2024App** — Native iOS football tournament companion for browsing fixtures, chronological match timelines, dynamically calculated group standings, national squads, and a searchable player directory (`SwiftUI`, `Firebase`). [Live Demo](https://erturkeryavuz.github.io/euro2024app-demo/) · [Demo Repository](https://github.com/erturkeryavuz/euro2024app-demo)
+- **NBASHOP** — Basketball merchandise storefront and administration application covering product browsing, shopping cart, order-preview workflows, inventory management, and server-side web security controls (`PHP`, `MySQL`). [Live Demo](https://erturkeryavuz.github.io/nbashop-demo/) · [Demo Repository](https://github.com/erturkeryavuz/nbashop-demo)
 
 ---
 
-### 4. Fantasy Basketball Platform — Full-Stack Django DRF & SwiftUI Application
+## Technical Capabilities
 
-**[Open Live Showcase →](https://erturkeryavuz.github.io/fantasy-basketball-demo/)** · [Public Demo Repository](https://github.com/erturkeryavuz/fantasy-basketball-demo) · `Private Source · Interactive Phone-Framed Showcase`
-
-[![Fantasy Basketball interactive showcase displaying the SwiftUI PackMarket screen alongside the matching Django REST Framework Live API Trace](assets/fantasy-basketball-preview.png)](https://erturkeryavuz.github.io/fantasy-basketball-demo/)
-
-- **Full-stack graduation project (Maltepe University):** Combines a **Django 5 + Django REST Framework** API backend with a native **SwiftUI** iOS client, verified by an automated backend API regression suite.
-- **End-to-end iOS & API workflows:** Implements token-authenticated registration/login, team and club rosters, a 4-filter player directory, six auto-assigned rarity tiers (`Gold` through `DarkBlueDiamond`), atomic credit-based `PackMarket` pack opening (`POST /api/open-pack/`), and a personal `My Cards` inventory.
-- **Relational league engine & static showcase:** Includes staff-gated backend REST endpoints for 10-player leagues, round-robin schedules, match results, and standings (backend-only, not yet wired in SwiftUI), paired with a browser-only static showcase displaying live matching serializer traces and [third-party photo notices](https://erturkeryavuz.github.io/fantasy-basketball-demo/notices.html).
-- **Core stack:** Python · Django 5 · Django REST Framework · SQLite · Swift · SwiftUI · HTML5 / CSS3 / ES Modules
+- **AI & LLM Engineering:** Local and API-backed language-model applications, structured prompting, model evaluation, and sequence modeling (`Ollama`, LLM APIs, Microsoft Copilot Studio, TensorFlow / Keras, `scikit-learn`)
+- **Retrieval & Agent Systems:** Hybrid dense + BM25 search, Reciprocal Rank Fusion, citation-grounded generation, dependency-ordered tool planning, and approval-gated workflows
+- **Python Backend & APIs:** REST services, local CLI runtimes, relational schemas, authentication, and automated test suites (`Python`, `FastAPI`, `Django REST Framework`, `SQLite`, `PostgreSQL`, `MySQL`, `pytest`)
+- **Data Engineering & Analytics:** Ingestion pipelines, financial and time-series analysis, quantitative validation, and reporting automation (`pandas`, `NumPy`, Power BI, SAP integration, SEC EDGAR XBRL)
+- **Software & Mobile Development:** Native iOS applications (`Swift`, `SwiftUI`, `Firebase`), responsive web interfaces (`TypeScript`, `JavaScript`, `HTML5 / CSS3`), server-side web security (`PHP`), and `Git` / `GitHub Actions`
 
 ---
 
-## Technical Expertise
+## Experience & Education
 
-### AI & LLM Systems
-<p>
-  <img src="assets/icons/ollama.svg" alt="Local LLMs and Ollama" title="Local LLMs (Ollama)" width="44" height="44" />&nbsp;
-  <img src="assets/icons/rag.svg" alt="Hybrid RAG Retrieval" title="Hybrid RAG (Dense + BM25 + RRF)" width="44" height="44" />&nbsp;
-  <img src="assets/icons/keras.svg" alt="TensorFlow and Keras" title="TensorFlow / Keras" width="44" height="44" />&nbsp;
-  <img src="assets/icons/sklearn.svg" alt="scikit-learn and Evaluation" title="scikit-learn & Retrieval Evaluation" width="44" height="44" />
-</p>
-Local LLMs (`Ollama`), Hybrid RAG (Dense Embeddings, BM25, Reciprocal Rank Fusion, Cross-Encoder Reranking), Groundedness & Retrieval Evaluation, TensorFlow / Keras, `scikit-learn`
-
-### Agents & Orchestration
-<p>
-  <img src="assets/icons/agents.svg" alt="Agent Orchestration and DAG Planning" title="Plan-Then-Execute Agent Orchestration" width="44" height="44" />&nbsp;
-  <img src="assets/icons/guardrails.svg" alt="Authorization and Approval Gates" title="Capability Policies & Approval Gates" width="44" height="44" />&nbsp;
-  <img src="assets/icons/journal.svg" alt="Durable Execution Journaling" title="Durable Execution Journaling" width="44" height="44" />&nbsp;
-  <img src="assets/icons/provenance.svg" alt="SHA-256 Provenance and Drift Detection" title="Artifact Provenance & Drift Detection" width="44" height="44" />
-</p>
-Plan-Then-Execute DAG Workflows, Capability & Permission Policies, Human-in-the-Loop Approval Gates, Durable Execution Journaling, Subprocess Boundaries, SHA-256 Artifact Provenance
-
-### Backend, APIs & Data
-<p>
-  <img src="assets/icons/python.svg" alt="Python" title="Python" width="44" height="44" />&nbsp;
-  <img src="assets/icons/fastapi.svg" alt="FastAPI" title="FastAPI" width="44" height="44" />&nbsp;
-  <img src="assets/icons/django.svg" alt="Django and Django REST Framework" title="Django & Django REST Framework" width="44" height="44" />&nbsp;
-  <img src="assets/icons/sql.svg" alt="SQLite, PostgreSQL, and MySQL" title="SQLite, PostgreSQL & MySQL" width="44" height="44" />&nbsp;
-  <img src="assets/icons/pandas.svg" alt="pandas and NumPy" title="pandas & NumPy" width="44" height="44" />
-</p>
-Python, FastAPI, Django & Django REST Framework, REST API Design, SQLite, PostgreSQL, MySQL, `pandas`, `NumPy`
-
-### Mobile & Web Interfaces
-<p>
-  <img src="assets/icons/swift.svg" alt="Swift and SwiftUI" title="Swift & SwiftUI" width="44" height="44" />&nbsp;
-  <img src="assets/icons/firebase.svg" alt="Firebase Auth, Firestore, and Storage" title="Firebase (Auth, Firestore, Storage)" width="44" height="44" />&nbsp;
-  <img src="assets/icons/typescript.svg" alt="TypeScript and JavaScript" title="TypeScript & JavaScript" width="44" height="44" />&nbsp;
-  <img src="assets/icons/web.svg" alt="React, HTML5, and CSS3" title="React, HTML5 & CSS3" width="44" height="44" />
-</p>
-Swift, SwiftUI, Firebase (Authentication, Cloud Firestore, Storage), TypeScript, JavaScript, React, HTML5 / CSS3
-
-### Engineering & Verification
-<p>
-  <img src="assets/icons/git.svg" alt="Git" title="Git" width="44" height="44" />&nbsp;
-  <img src="assets/icons/actions.svg" alt="GitHub Actions CI" title="GitHub Actions CI" width="44" height="44" />&nbsp;
-  <img src="assets/icons/pytest.svg" alt="pytest and unittest" title="pytest & unittest" width="44" height="44" />&nbsp;
-  <img src="assets/icons/php.svg" alt="PHP Security Remediation" title="PHP (Security Hardening)" width="44" height="44" />
-</p>
-Git, GitHub Actions CI, `pytest` & `unittest`, Deterministic Schema Validation, Security Remediation (SQLi/CSRF/XSS/IDOR), Procedural PHP
+- **Information Technology Intern — Eczacıbaşı – Esan** *(Feb 2025 – Jul 2025 · Istanbul)*<br>
+  Built AI-powered chatbot solutions with Microsoft Copilot Studio and Python, contributed to a DeepSeek-based AI analytics assistant, developed FastAPI reporting services, and automated Power BI, SAP, and Excel workflows.
+- **Mobile Software Development Intern — SNT Software & Financial Technologies** *(Jun 2024 – Sep 2024 · Istanbul)*<br>
+  Developed a native Swift and Firebase iOS application alongside Python backend services, LLM-based API integrations, and AI-assisted data preprocessing pipelines.
+- **B.Sc. in Computer Engineering — Maltepe University** *(2025 · Istanbul)* · Turkish (Native), English (B2)
 
 ---
 
-## More Projects
+## Contact
 
-#### TSLAIQ · [Live Research Showcase →](https://erturkeryavuz.github.io/tslaiq-demo/) · [Public Demo Repository](https://github.com/erturkeryavuz/tslaiq-demo) · `Private Source`
-Time-series analytics and Keras sequence-modeling research pipeline featuring RSI, EMA20, EMA50, MACD, and OBV indicators, leak-free chronological preprocessing, safe Keras archive inspection, and a dark interactive showcase running over a 100% synthetic daily equity series (`SYNTH-EQ`, 1,500 sessions, seed `20261123`).  
-*Scope & honesty note:* Private engineering repository presented via a fully synthetic static showcase (zero real market data, not live prices or investment advice). In the original private historical experiments, logged LSTM checkpoints did not outperform the naive persistence baseline, and fresh TensorFlow/Keras retraining remains unrun locally.  
-**Stack:** Python · TensorFlow / Keras · `pandas` · `scikit-learn` · `yfinance` · HTML5 / CSS3 / JS
-
-#### Euro2024App · [Live Interactive Showcase →](https://erturkeryavuz.github.io/euro2024app-demo/) · [Public Demo Repository](https://github.com/erturkeryavuz/euro2024app-demo) · `Private Source`
-Native SwiftUI and Firebase iOS football companion featuring match timelines, unified standings, 20 national teams, a filterable 220-player directory, user profiles, and a Python Firestore seeding script — paired with a phone-framed static web showcase.  
-*Scope & honesty note:* Built over a static bundled sample dataset (2020/2021-era squads and synthetic demonstration fixtures), not live or official UEFA Euro 2024 tournament data.  
-**Stack:** Swift · SwiftUI · Firebase (Auth, Firestore, Storage) · Python · HTML5 / CSS3 / ES Modules
-
-#### NBASHOP · [Live Storefront Showcase →](https://erturkeryavuz.github.io/nbashop-demo/) · [Public Demo Repository](https://github.com/erturkeryavuz/nbashop-demo) · `Private Source`
-Legacy procedural PHP/MySQL e-commerce storefront and admin panel refactored for security across all 46 PHP files (prepared statements, `password_verify`, CSRF/XSS/IDOR protections, safe image upload validation, and Apache `.htaccess` guards — passing `17/17` PHP 8.3 / MySQL 8.0 / Apache 2.4 CI runtime security tests), paired with a synthetic static storefront showcase.  
-*Scope & honesty note:* Runs strictly in non-payment order-preview mode (no live payment processing) and is not affiliated with or endorsed by the NBA or any commercial sports brand.  
-**Stack:** PHP · MySQL · GitHub Actions CI · Apache 2.4 · HTML5 / CSS3 / JS
-
-#### Trading Edge Terminal · [Live Research Showcase →](https://erturkeryavuz.github.io/trading-edge-terminal-demo/) · [Public Demo Repository](https://github.com/erturkeryavuz/trading-edge-terminal-demo) · `Private Source · Frozen`
-Historical U.S. financial research workstation combining public-domain SEC EDGAR XBRL fundamentals, U.S. Treasury yield curves, explainable GAAP screening and scoring (`m2u3-accounting-score-v1`), structured risk rules, and a synthetic point-in-time bar-revision replay.  
-*Scope & honesty note:* Frozen private engineering project presented via a dated `2026-11-12` historical snapshot and synthetic revision fixture — no live equity prices, brokerage integration, validated profitable strategy, or investment advice.  
-**Stack:** Python (stdlib) · SQLite · SEC EDGAR XBRL · U.S. Treasury CSV · HTML5 / CSS3 / SVG / JS
-
-#### GoSil · [Live Research Showcase →](https://erturkeryavuz.github.io/gosil-analytics-demo/) · [Public Demo Repository](https://github.com/erturkeryavuz/gosil-analytics-demo) · `Private Source · Frozen`
-Precious-metals accounting and statistical research platform demonstrating exact fixed-point integer math (`e4` TRY / `ug` mass), 6-tier price separation, exact `31.1034768` g/oz currency decomposition, `900s` spread/freshness gates, and purged walk-forward baseline evaluation.  
-*Scope & honesty note:* Frozen private engineering project presented as a 100% synthetic showcase — no live prices, real personal financial data, LLM forecasting engine, or reliable future-price prediction claims.  
-**Stack:** Python · SQLite (`STRICT`) · Fixed-Point / `Fraction` Math · Walk-Forward Statistics · HTML5 / CSS3 / SVG / JS
-
----
-
-## Background and Contact
-
-- **Education:** B.Sc. in Computer Engineering, **Maltepe University** (2025)
-- **Project Boundary:** All featured and supporting showcases above represent independent personal or academic engineering projects; private AI, mobile/full-stack, and frozen financial-research source repositories remain private while their verified behavior and limitations are shared through public static showcases.
-- **Availability:** Open to **Junior / Early-Career AI Engineering, LLM/RAG, Agent Systems, and Python Backend** roles.
-
-**Connect:** [LinkedIn](https://www.linkedin.com/in/erturkeryavuz) · [erturkeryavuz@gmail.com](mailto:erturkeryavuz@gmail.com) · [GitHub](https://github.com/erturkeryavuz)
+[erturkeryavuz@gmail.com](mailto:erturkeryavuz@gmail.com) · [LinkedIn](https://www.linkedin.com/in/erturkeryavuz) · [GitHub](https://github.com/erturkeryavuz)
